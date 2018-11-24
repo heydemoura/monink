@@ -16,6 +16,14 @@ module.exports = function logsReducer(state = initialState, action) {
         ...state,
         data: action.payload.data
       }
+
+    case C.PUSH_DATA:
+      const { data } = state; 
+      data.push(action.payload.entry);
+      return {
+        ...state,
+        data,
+      }
   }
 
   return state;
