@@ -1,0 +1,8 @@
+{
+  "generator-ink-cli": {
+    "promptValues": {
+      "githubUsername": "heydemoura",
+      "website": "https://github.com/heydemoura"
+    }
+  }
+}
